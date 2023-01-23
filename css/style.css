@@ -136,6 +136,7 @@ footer {
 .flex-footer {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     border: 1px solid green; /* to be deleted in final layout */
     padding: 5px; /* to be deleted in final layout */
     padding-bottom: 20px;

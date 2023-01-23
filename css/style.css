@@ -1,17 +1,19 @@
 .container {
     max-width: 900px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .flex-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
 
 nav {
-    background-color: lightgrey; /* random colour, to be adj in final layout */
-    height: 70px; /* random size, to be adj in final layout */
+    background-color:lightcyan; /* random colour, to be adj in final layout */
+    height: 70px; 
     padding: 5px; /* to be deleted in final layout */
 } 
 
@@ -23,20 +25,50 @@ nav {
 
 #logo, #login{
     border: 1px solid black; /* to be deleted in final layout */
-    width: 100px; /* random size, to be adj in final layout */
+    width: 100px;
+    height: 100%; 
 }
 
- #search-bar ul {
+ #links-bar ul {
     border: 1px dashed black; /* to be deleted in final layout */
     list-style-type: none;
     padding: 5px; /* to be deleted in final layout */
-    gap: 10px;
     height: 100%;
-    align-items: center;
 }
 
-#search-bar ul li {
+#links-bar ul li {
     border: 1px solid green;
-    width: 80px; /* random size, to be adj in final layout */
-    height: 20px; /* random size, to be adj in final layout */
+    width: 80px; 
+    height: 20px; 
+}
+
+header {
+    background-color: lightgray; /* random colour, to be adj in final layout */
+    padding-top: 60px; 
+    padding-bottom: 60px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    border: 1px solid red;
+    width: 600px; 
+    height: 40px; 
+}
+
+p {
+    border: 1px solid blue;
+    width: 600px; 
+    height: 100px; 
+}
+
+#download-button, #open-button {
+    border: 1px solid green;
+    width: 150px;
+    height: 40px; 
 }

@@ -1,0 +1,42 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: lightgrey; /* random colour, to be adj in final layout */
+    height: 70px; /* random size, to be adj in final layout */
+    padding: 5px; /* to be deleted in final layout */
+} 
+
+.inner-nav {
+    border: 1px solid red; /* to be deleted in final layout */
+    height: 100%;
+    padding: 5px; /* to be deleted in final layout */
+}
+
+#logo, #login{
+    border: 1px solid black; /* to be deleted in final layout */
+    width: 100px; /* random size, to be adj in final layout */
+}
+
+ #search-bar ul {
+    border: 1px dashed black; /* to be deleted in final layout */
+    list-style-type: none;
+    padding: 5px; /* to be deleted in final layout */
+    gap: 10px;
+    height: 100%;
+    align-items: center;
+}
+
+#search-bar ul li {
+    border: 1px solid green;
+    width: 80px; /* random size, to be adj in final layout */
+    height: 20px; /* random size, to be adj in final layout */
+}
